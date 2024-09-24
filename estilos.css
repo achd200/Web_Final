@@ -1,0 +1,184 @@
+
+/* enlazar el css con fuentes externas de google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+:root {
+    --color1: #FFFFFF;
+    --color2: #0F0D1D;
+    --color3: #585858;
+    --color4: #3C72FC;
+    --color5: #F3F7FB;
+  
+
+/* variable de fuentes */
+    --fuente1: "kumbh Sans", sans-serif;
+   
+}
+
+/*Regla afecta a toda la pagina Html*/
+*{
+    /*Elimina margenes y espaciados*/
+    margin: 0;
+    padding: 0;
+}
+
+/*1 Selecto de estilos para etiquetas Html*/
+h0{
+    color:var(--color4);
+    font-size: 16px;
+    padding-bottom: 90px;
+}
+
+h1{
+    color:var(--color3);
+    font-size: 60px;
+}
+h2{
+    color:var(--color3);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+h3{
+    color:var(--color3);
+    font-size: 20px;
+    font-style:oblique;
+}
+
+h4{
+   
+    font-size: 20px;
+   
+     
+}   
+h5{
+   
+    font-size: 15px;
+    margin-bottom: 0px;
+}  
+/*Espaciado de texto h2*/
+  h20 { 
+    letter-spacing: 15px;
+    margin-bottom: 15px;
+  }
+
+body{
+    font-family:var(--fuente1) ;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+/* 2 Selector de estilo para indicadores ID*/
+
+#cabecera{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+#nosotros{
+    background-color: var(--color5);
+    color:var(--color3);
+}
+
+#servicios{
+    background-color: var(--color1);
+    color:var(--color2);
+}
+
+#clientes{
+    background-color: var(--color1);
+    color:var(--color3);
+}
+
+#colaboradores{
+    background-color: var(--color1);
+    color:var(--color2);
+}
+
+#fin{
+    background-color: var(--color2);
+    color:var(--color1);
+   
+}
+
+#pie{
+    background-color: var(--color2);
+    color:var(--color1);
+   
+}
+
+/* 3 Selector de estilo tipo Clases(class)*/
+.espaciado{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.espaciado2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.espaciado3{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.contenedor{
+    max-width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.contenedor2{
+    columns: 2 300px;
+    max-width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.contenedor3{
+    columns: 3 300px;
+    max-width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#contenedor4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin-left:20%;
+    margin-right:05%;
+  }
+  
+#contenedor4 > div {
+    width: 24%;
+  }
+
+.imgfluid{
+    width: 100%;
+}
+.imgfluid2{
+    width: 100%;   
+    width: 1300px; height: 200px; 
+}
+
+.imgfluid3{
+    width: 80%;   
+    width: 300px; height: 350px; 
+}
+
+
+.centrar-texto{
+    text-align: center;
+}
